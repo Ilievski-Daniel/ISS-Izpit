@@ -1,0 +1,91 @@
+@import "../bootstrap/scss/bootstrap.scss";
+
+.text-gray {
+  color: rgba(255, 255, 255, 0.5);
+}
+.navbar-dark .navbar-toggler {
+  border: 0;
+  padding: 0.5rem 1rem;
+}
+.navbar-collapse {
+  padding-right: 1rem;
+}
+
+.navbar-brand {
+  color: rgba(255, 255, 255, 0.5) !important;
+  padding: 0.5rem 1rem;
+  &:hover {
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+}
+
+nav .active {
+  border-left: 3px solid white;
+  padding-left: 0.9rem;
+}
+.carousel-caption {
+  bottom: auto;
+  top: 10%;
+}
+.navbar {
+  padding: 0;
+}
+
+.vh-60 {
+  max-height: 60vh;
+}
+.section2 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(../../images/lights.jpg);
+  background-attachment: fixed;
+}
+.section3 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(../../images/media.jpg);
+  background-attachment: fixed;
+}
+.btn-hover-d:hover {
+  background-color: #dc3545;
+  color: #fff !important;
+}
+
+.bg-black {
+  background-color: black;
+}
+// --------------------
+.about-first {
+  height: 70vh;
+  background-image: url(../../images/contact.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.bg-red {
+  background-color: #ff0000;
+}
+
+// ---------------------
+.black {
+  background-color: rgb(17, 17, 17);
+}
+// ----------------
+.blue {
+  background-color: blue;
+}
+// ----------------
+@media (max-width: 573px) {
+  .nav-item {
+    padding-left: 1rem;
+  }
+}
+@media (min-width: 574px) {
+  nav .active {
+    padding-left: 0;
+  }
+}
